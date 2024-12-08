@@ -1,0 +1,1166 @@
+body {
+    background: #EEEEEE;
+}
+
+.font_Jost {
+    font-family: Jost;
+    font-weight: 400;
+}
+
+.font60 {
+    font-family: Forum;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+
+}
+
+.font75 {
+    color: #BB8C5F;
+    font-family: Forum;
+    font-size: 75px;
+    font-weight: 400;
+    line-height: 75px;
+}
+
+.font_size15 {
+    font-size: 15px;
+}
+
+.font_size12 {
+    font-size: 12px;
+}
+
+.font_size17 {
+    font-size: 17px;
+}
+
+.font_size20 {
+    font-size: 20px;
+}
+
+.font_size25 {
+    font-size: 25px;
+}
+.font_size30 {
+    font-size: 30x;
+    font-weight: 700;
+}
+
+.undermessage:hover {
+    color: #BB8C5F;
+}
+
+.headA {
+    color: white;
+    text-decoration: none;
+}
+
+.sectionsHeader:hover {
+    cursor: pointer;
+    color: #BB8C5F;
+}
+
+.hr_header {
+    border: 1px solid #524336;
+    width: 100%;
+
+}
+
+/* Хедер окно */
+.popup {
+    position: fixed;
+    left: 0;
+    top: 328px;
+    margin-top: -178px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.lineheader {
+    width: 20px;
+    height: 20px;
+    margin-top: -17px;
+    margin-left: 300px;
+    background-color: #F5F5F5;
+    position: absolute;
+    top: 14.14px;
+    left: 50px;
+    transform: rotate(45deg);
+    opacity: 1;
+}
+
+.popup-content {
+    background-color: #F5F5F5;
+    margin-top: -500px;
+    margin-left: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    width: auto;
+    height: 411px;
+    max-height: 606px;
+}
+
+.close {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* TAB */
+.tab {}
+
+.tab>input[type="radio"] {
+    display: none;
+}
+
+.tab-content {
+    margin-top: -10px;
+    display: none;
+}
+
+#tab-btn-1:checked~#content-1,
+#tab-btn-2:checked~#content-2 {
+    display: block;
+}
+
+.tab_upline {
+    display: none;
+}
+
+.tab_upline_2 {
+    margin-left: 113px;
+}
+
+#tab-btn-1:checked~#tab_upline_1,
+#tab-btn-2:checked~#tab_upline_2 {
+    display: block;
+    font-family: Jost;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    text-align: left;
+
+}
+
+#tab-btn-1:checked~.tab_title_1,
+#tab-btn-2:checked~.tab_title_2 {
+    color: #BB8C5F;
+    font-family: Jost;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 25.5px;
+
+}
+
+.tab_title_1 {
+    margin-right: 15px;
+}
+
+.tab_title:hover {
+    cursor: pointer;
+}
+
+/* list */
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list li a {
+    color: #3E424B;
+    text-decoration: none;
+}
+
+.left-list {
+    margin-right: 50px;
+}
+
+.right-list {
+    margin-right: 50px;
+}
+
+.list li {
+    margin: 5px 0;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    color: #3E424B;
+}
+
+.list li a:hover {
+    cursor: pointer;
+
+    color: #BB8C5F;
+}
+
+#tab-btn-1:checked~#content-1 .list li {
+    margin: 5px 0;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    text-align: left;
+}
+
+#tab-btn-1:checked~.list li {}
+
+/* catalog_hr */
+.catalog_hr {
+    border: 1px solid #D0D0D0;
+    width: auto;
+}
+
+/* Image Bagraund Block */
+
+.background-block {
+
+    background-image: url('https://tattoo.loc/img/Bg2.png');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    align-items: flex-start;
+
+
+    color: white;
+}
+
+.text-overlay {
+    margin-top: 150px;
+    position: relative;
+    max-width: 591px;
+}
+
+.text-overlay h1 {
+    font-family: Forum;
+    font-size: 75px;
+    font-weight: 400;
+    line-height: 75px;
+    text-align: left;
+    color: #BB8C5F;
+}
+
+.text-overlay p {
+    font-family: Jost;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+    color: #FAF6F2;
+    width: 431px;
+    margin: 20px 0 40px;
+}
+
+
+
+/* tabs */
+.product-tabs {
+    width: 100%;
+}
+
+.tab-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.tab-links li {
+    margin: 0 10px;
+}
+
+.tab-links a {
+    text-decoration: none;
+    color: #3E424B;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 34.5px;
+    text-align: left;
+
+}
+
+.tab-links .active a {
+    color: #BB8C5F;
+}
+
+.tab_cat-content {}
+
+.tab_cat {
+    display: none;
+}
+
+.tab_cat.active {
+    display: block;
+}
+
+/* card */
+.Card_body {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    background-color: #f8f9fa;
+    margin: 0;
+}
+
+.card {
+    width: 289px;
+    background-color: white;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+    padding: 16px;
+    margin: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.card-price {
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+.add-to-cart {
+    display: none;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card {
+    transition: transform 1s, box-shadow 0.3s ease-in-out;
+}
+
+.card:not(:hover) {
+    transform: scale(0.95);
+    transition: transform 1s, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover .add-to-cart {
+    display: block;
+}
+
+/* UI elements */
+.btn_tat {
+    width: 250px;
+    height: 70px;
+    color: #BB8C5F;
+    background: none;
+    border: none;
+    background-image: url('/svg/btn.svg');
+    background-size: contain;
+    background-position: center;
+}
+
+.btn_tatWhite {
+    width: 250px;
+    height: 70px;
+    color: #BB8C5F;
+    border: none;
+    color: #BB8C5F;
+    background: white;
+    background-image: url('/img/btnWhite.png');
+    background-size: contain;
+    background-position: center;
+}
+
+.copyUrl{
+    border: none;
+}
+
+.btn_tatBGNOne {
+    width: 250px;
+    height: 70px;
+    color: #BB8C5F;
+    border: none;
+    color: #BB8C5F;
+    background: none;
+    background-image: url('/img/btnWhite.png');
+    background-size: contain;
+    background-position: center;
+}
+
+/*  CATALOG */
+.cat {
+    height: 350px;
+    background: #F5F5F5;
+    width: auto;
+    text-decoration: none;
+}
+
+.cat1 {
+    width: 494px;
+    background-image: url('/img/tattoo_kits.png');
+    /* Путь относительно корня */
+    background-size: 349px;
+    /* или другие значения, если нужно */
+    background-repeat: no-repeat;
+    border: none;
+    background-position: center;
+}
+
+.cat2 {
+    width: 701px;
+    background-image: url('/img/holders.png');
+    background-size: 535px;
+    background-repeat: no-repeat;
+    border: none;
+    background-position: center;
+}
+
+.cat3 {
+    width: 342px;
+    background-image: url('/img/tattoo_machines.png');
+    background-size: 259px;
+    background-repeat: no-repeat;
+    border: none;
+    background-position: center;
+}
+
+.cat4 {
+    width: 493px;
+    background-image: url('/img/Pedals_wires.png');
+    background-size: 351px;
+    background-repeat: no-repeat;
+    border: none;
+    background-position: center;
+}
+
+.cat5 {
+    width: 341px;
+    background-image: url('/img/Paints.png');
+    background-size: 307px;
+    background-repeat: no-repeat;
+    border: none;
+    background-position: center;
+}
+
+.cat6 {
+    width: 495px;
+    background-image: url('/img/Power_supplies.png');
+    background-size: 440px;
+    background-repeat: no-repeat;
+    border: none;
+    background-position: center;
+}
+
+.cat7 {
+    width: 341px;
+    background-image: url('/img/Tips.png');
+    background-size: 308px;
+    background-repeat: no-repeat;
+    border: none;
+    background-position: center;
+}
+
+.cat8 {
+    width: 341px;
+    background-image: url('/img/Tattoo_needles.png');
+    background-size: 307px;
+    background-repeat: no-repeat;
+    border: none;
+    background-position: center;
+}
+
+.cat9 {
+    width: 340px;
+    background-image: url('/img/Protection_containers_consumables.png');
+    background-size: 277px;
+    background-repeat: no-repeat;
+    border: none;
+    background-position: center;
+}
+
+.cat10 {
+    width: 340px;
+    background-image: url('/img/Accessories.png');
+    background-size: 277px;
+    background-repeat: no-repeat;
+    border: none;
+    background-position: center;
+}
+
+.cat11 {
+    width: 495px;
+    background-image: url('/img/Printers_tablets.png');
+    background-size: 439px;
+    background-repeat: no-repeat;
+    border: none;
+    background-position: center;
+}
+
+.cat p {
+    font-family: Jost;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 33px;
+    text-align: left;
+    color: #3E424B;
+
+}
+
+/* hits */
+
+.imghit1 {
+    width: 970px;
+    height: 470px;
+    background-image: url('/img/LipNitn.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    border: none;
+    background-position: center;
+}
+
+.imghit2 {
+    width: 970px;
+    height: 470px;
+    background-image: url('/img/FoxxViper.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    border: none;
+    background-position: center;
+}
+
+.hitTitle {
+    font-family: Jost;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: left;
+    color: #FAF6F2;
+}
+
+.linkCat {
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 400;
+    display: inline-block;
+    color: #BB8C5F;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* .customLine {
+    width: 173px;
+    height: 2px;
+    background-image: url('/img/LineCat.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    border: none;
+    background-position: center;
+} */
+/* About home */
+.imgAbout {
+    width: 930px;
+    height: 635px;
+    background-image: url('/img/aboutUs.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    border: none;
+    background-position: center;
+}
+
+.homeAbout {
+    width: 598px;
+    height: 503px;
+    margin: 80px 0 0 30px;
+}
+
+.homeAboutTitle {
+    font-family: Forum;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 65px;
+    color: #BB8C5F;
+}
+
+.homeAboutText {
+    font-family: Jost;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23.8px;
+    color: #3E424B;
+}
+
+/* Mailing */
+.imgMailing {
+    width: 952px;
+    height: 562px;
+    background-image: url('/img/Mailing.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    border: none;
+    background-position: center;
+}
+
+.Mailing {
+    width: 524px;
+    height: auto;
+    margin: 50px;
+    text-align: left;
+}
+
+.mailingTitle {
+    font-family: Forum;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    color: #3E424B;
+    text-align: left;
+}
+
+.mailingText {
+    font-family: Jost;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 28.75px;
+    color: #3E424B;
+    text-align: left;
+}
+
+/* Form Mailing */
+.emailInput,
+.nameInput {
+    background-color: #F5F5F5;
+    border-radius: 0;
+    /* Убираем закругления */
+    border: 1px solid #F5F5F5;
+    /* Можно добавить границу */
+}
+
+.formGroup label {
+    margin-bottom: 10px;
+}
+
+
+/* Дополнительно можно добавить стили для hover/фокуса на инпутах */
+.emailInput:focus,
+.nameInput:focus {
+    border-color: #BB8C5F;
+    /* Цвет границы при фокусе на инпуте */
+    outline: none;
+    /* Убираем стандартный обвод */
+}
+
+.form-check-input {
+    display: none;
+    /* Скрыть стандартный чекбокс */
+}
+
+.form-check-input+.form-check-label {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.form-check-input+.form-check-label::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #BB8C5F;
+    /* Цвет границы */
+    background-color: transparent;
+    /* Цвет фона когда не выбран */
+    border-radius: 3px;
+    /* Радиус углов */
+}
+
+.form-check-input:checked+.form-check-label::before {
+    background-color: #BB8C5F;
+    /* Цвет фона когда выбран */
+    border-color: #BB8C5F;
+    /* Цвет границы когда выбран */
+}
+
+.form-check-input:checked+.form-check-label::after {
+    content: '';
+    position: absolute;
+    left: 7px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    /* Цвет галочки */
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.btn_tat_black {
+    width: 250px;
+    height: 70px;
+    color: #FAF6F2;
+    border: none;
+    background: none;
+    background-image: url(/img/btnBlack.png);
+    background-size: contain;
+    background-position: center;
+}
+
+/* footer */
+.footLeft {
+    width: 615px;
+    height: 141px;
+    display: flex;
+    gap: 20px;
+    align-items: baseline;
+    justify-content: flex-end;
+}
+
+.footerLink {
+    text-decoration: none;
+    color: #E9ECF1;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26.7px;
+    text-align: left;
+}
+
+.hrFooter {
+    width: 2px;
+    /* Ширина линии */
+    height: 255px;
+    /* Высота линии */
+    background-color: #524336;
+    /* Цвет линии */
+    margin: 0 auto;
+}
+
+.midLink {
+    width: 126px
+}
+
+.leftLink {
+    width: 238px;
+}
+
+.rightLink {
+    width: 100px;
+}
+
+.footRight {
+    width: 350px;
+    height: 141px;
+}
+
+.mes {
+    display: flex;
+    gap: 10px;
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #FAF6F2;
+    align-items: center;
+    text-align: center;
+    place-items: center;
+}
+
+.mes p {
+    margin: 0;
+}
+
+.timeWork {
+    font-family: Jost;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    text-align: left;
+    color: #636B78;
+}
+
+.FootEmail {
+    display: flex;
+    gap: 20px;
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+.FootEmail p {
+    margin: 0;
+}
+
+/* PROMO CODES */
+.cardPromo {
+    width: 392px;
+    height: 604px;
+    background: #f5f5f5;
+
+}
+
+.cardPromoImg {
+    width: 392px;
+    height: 230px;
+}
+
+.cardPromo_body {
+    margin: 0 auto;
+    width: 312px;
+}
+
+.btn_container {
+    text-align: center;
+}
+
+.btn_tat_promo {
+    margin: 0 auto;
+    width: 250px;
+    height: 70px;
+    color: #BB8C5F;
+    background: #f5f5f5;
+    border: none;
+    background-image: url('/svg/btn.svg');
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+}
+
+/* CONTACTS */
+.office {
+    display: flex;
+    gap: 40px;
+}
+
+.officeLeft {
+    width: 804px;
+    height: 568px;
+    background: #f5f5f5;
+}
+
+.officeRight {
+    width: 392px;
+    height: 568px;
+    background: #f5f5f5;
+}
+
+.containerofficeLeft {
+    width: 714px;
+    margin: 0 auto;
+}
+
+.containerofficeRight {
+    width: 312px;
+    margin: 0 auto;
+}
+
+/* page 404 */
+
+.error_link {
+    color: #BB8C5F;
+    text-decoration: none;
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+/* basket */
+.table_basket {
+    width: 800px;
+    margin-top: 0;
+    /* Устанавливаем отступ сверху равным нулю */
+    vertical-align: top;
+    /* Фиксируем таблицу вверху */
+
+}
+
+.table_container {
+    flex-grow: 1;
+}
+
+.table_basket tbody tr:first-child {
+    border-bottom: 3px solid black;
+    /* Высота линии */
+}
+
+.table_basket tbody tr:last-child {
+    border-bottom: none;
+    /* Убираем линию под последней строкой */
+}
+
+/* .padBasket {
+    padding-top: -30px;
+} */
+
+.btnBasket {
+    border: none;
+}
+
+.quantityBasket {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid #BB8C5F;
+    width: 30px;
+    height: 30px;
+    background-color: #EEEEEE;
+    font-size: 17px;
+    color: #3E424B;
+}
+
+.paymentBasket {
+    width: 392px;
+    height: 750px;
+    background: #F5F5F5;
+}
+
+.paymentHeader {
+    margin: 0 auto;
+    width: 300px;
+    margin-top: 25px;
+}
+
+.promoBasket {
+    margin: 0 auto;
+    width: 300px;
+}
+
+.promoBasket input {
+    padding: 10px;
+}
+
+.promoBasket button {
+    border: none;
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #BB8C5F;
+    background: none;
+    width: 259px;
+}
+
+.payment-methods {
+    margin-top: 20px;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.payment-methods label {
+    display: block;
+
+}
+
+/* Скрываем стандартные радиокнопки */
+.payment-methods input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Создаем собственный стиль для радиокнопок */
+.payment-methods input[type="radio"]+label::before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    vertical-align: middle;
+    background-color: white;
+    border: 2px solid #BB8C5F;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Меняем цвет рамки и добавляем внутренний кружок при выборе */
+.payment-methods input[type="radio"]:checked+label::before {
+    border-color: #BB8C5F;
+    background-color: white;
+    background-clip: content-box;
+    padding: 2px;
+}
+
+/* Внутренний кружок */
+.payment-methods input[type="radio"]:checked+label::after {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: #BB8C5F;
+    border-radius: 50%;
+    position: relative;
+    top: -16px;
+    left: 4px;
+}
+
+/* Подсветка при наведении */
+.payment-methods input[type="radio"]:hover+label::before {
+    border-color: #A67B49;
+}
+
+.payment-method {
+    position: relative;
+}
+
+.delivery-methods {
+    margin: 0 auto;
+    width: 300px;
+    margin-top: 20px;
+}
+
+/* Скрываем стандартные радиокнопки */
+.delivery-methods input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Создаем собственный стиль для радиокнопок */
+.delivery-methods input[type="radio"]+label::before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    vertical-align: middle;
+    background-color: white;
+    border: 2px solid #BB8C5F;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Меняем цвет рамки и добавляем внутренний кружок при выборе */
+.delivery-methods input[type="radio"]:checked+label::before {
+    border-color: #BB8C5F;
+    background-color: white;
+    background-clip: content-box;
+    padding: 2px;
+}
+
+/* Внутренний кружок */
+.delivery-methods input[type="radio"]:checked+label::after {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: #BB8C5F;
+    border-radius: 50%;
+    position: relative;
+    top: -16px;
+    left: 4px;
+}
+
+/* Подсветка при наведении */
+.delivery-methods input[type="radio"]:hover+label::before {
+    border-color: #A67B49;
+}
+
+.delivery-method {
+
+    position: relative;
+}
+
+/* Скрываем подсказку по умолчанию */
+.tooltip-text {
+    display: none;
+    position: absolute;
+    left: 63%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 100;
+    word-wrap: break-word;
+    white-space: normal;
+    width: 400px;
+}
+
+/* Показываем подсказку при наведении на контейнер с изображением */
+.tooltip-container:hover .tooltip-text {
+    display: block;
+}
+.emty{
+    margin-bottom: 500px;
+}
+.emty_catalog{
+    font-size: 25px;
+    margin-bottom: 400px;
+}
+.tdBasket {
+    height: 120px;
+}
+
+.tdHeaderBasket {
+    height: 30px;
+}
+
+.buyBasket {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.infoUser h1 {
+    font-family: Jost;
+    font-size: 25px;
+    font-weight: 700;
+}
+.infoAddress h1 {
+    font-family: Jost;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.infoUser div div input {
+    background: #F5F5F5;
+    border: none;
+    padding: 15px;
+}
+.infoAddress div div input {
+    background: #F5F5F5;
+    border: none;
+    padding: 15px;
+}
+
+.infoUser div div input::-webkit-input-placeholder {
+    font-family: Jost;
+    font-size: 17px;
+    font-weight: 400;
+    
+}
